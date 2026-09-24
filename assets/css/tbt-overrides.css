@@ -1,0 +1,9 @@
+/* Tutored by Teachers site overrides — loaded last so these rules win. */
+
+/* Gold stars for the parent review/testimonial cards. High specificity + clean
+   syntax on purpose: the deployed main.css copy has mangled formatting that
+   stops its own .star-icon rule from applying in some browsers. */
+.testimonial-area .star-icon a,
+.testimonial-area .star-icon a i {
+  color: #F5A623;
+}
