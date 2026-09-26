@@ -1161,7 +1161,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" id="article-grid">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="z-blogs mb-30 wow fadeInUp2 animated" data-wow-delay='.1s'>
+                                <div class="z-blogs__thumb mb-25">
+                                    <a href="blog/parent-teacher-interview-questions.html"><img style="height: 230px; width: 100%; object-fit: cover;" src="assets/img/university-students-studying-with-teacher-2022-02-02-04-49-53-utc.jpg" alt="blog-img"></a>
+                                </div>
+                                <div class="z-blogs__content z-blogs__content-02">
+                                     <div class="z-blogs__meta d-flex justify-content-between mb-10">
+                                        <span><img class="mr-5" src="assets/img/icon/date-line.svg" alt=""> 09/26/2026</span>
+                                    </div>
+                                    <h4 class="sub-title mb-15"><a href="blog/parent-teacher-interview-questions.html">Parent-Teacher Interviews: 10 Questions Every Ontario Parent Should Ask This Fall
+                                    </a></h4>
+                                    <p class="mb-20">Fall interviews are your best window into how your child is really doing. Here are the ten questions that get you real answers — not small talk.</p>
+                                    <a href="blog/parent-teacher-interview-questions.html" class="blog_btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="z-blogs mb-30 wow fadeInUp2 animated" data-wow-delay='.1s'>
                                 <div class="z-blogs__thumb mb-25">
@@ -1533,6 +1549,11 @@
                                     <a href="blog/ontario-curriculum-by-grade.html" class="blog_btn">Read More</a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center mt-30">
+                            <button id="toggle-articles" class="theme_btn theme_btn_bg" type="button">Show All Articles <i class="fas fa-chevron-down ml-10"></i></button>
                         </div>
                     </div>
                 </div>
@@ -1972,6 +1993,24 @@ $('.monster').fadeIn('slow');
 
 $(document).ready(function() {
 
+    // Parent Resources: show newest 6 article cards, collapse the rest
+    var $grid = $('#article-grid');
+    var $btn = $('#toggle-articles');
+    var SHOW_COUNT = 6;
+    if ($grid.length && $btn.length) {
+        var $extra = $grid.children('div').slice(SHOW_COUNT);
+        $extra.hide();
+        $btn.on('click', function () {
+            var expanded = $extra.is(':visible');
+            if (expanded) {
+                $extra.slideUp(200);
+                $btn.html('Show All Articles <i class="fas fa-chevron-down ml-10"></i>');
+            } else {
+                $extra.slideDown(200);
+                $btn.html('Show Fewer Articles <i class="fas fa-chevron-up ml-10"></i>');
+            }
+        });
+    }
 
 });
 </script>
