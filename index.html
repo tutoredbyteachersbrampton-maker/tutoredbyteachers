@@ -71,6 +71,11 @@
 
     gtag('config', 'G-S1LCLQ0SMP');
     </script>
+    <style>
+        /* Parent Resources: show newest 6 articles, collapse the rest (works even before/without JS) */
+        #article-grid > div:nth-child(n+8) { display: none; }
+        #article-grid.show-all > div:nth-child(n+8) { display: block; }
+    </style>
 </head>
 
 <body>
@@ -1993,22 +1998,16 @@ $('.monster').fadeIn('slow');
 
 $(document).ready(function() {
 
-    // Parent Resources: show newest 6 article cards, collapse the rest
+    // Parent Resources: toggle the collapsed article grid (CSS hides cards 7+ by default)
     var $grid = $('#article-grid');
     var $btn = $('#toggle-articles');
-    var SHOW_COUNT = 6;
     if ($grid.length && $btn.length) {
-        var $extra = $grid.children('div').slice(SHOW_COUNT);
-        $extra.hide();
         $btn.on('click', function () {
-            var expanded = $extra.is(':visible');
-            if (expanded) {
-                $extra.slideUp(200);
-                $btn.html('Show All Articles <i class="fas fa-chevron-down ml-10"></i>');
-            } else {
-                $extra.slideDown(200);
-                $btn.html('Show Fewer Articles <i class="fas fa-chevron-up ml-10"></i>');
-            }
+            var expanded = $grid.hasClass('show-all');
+            $grid.toggleClass('show-all', !expanded);
+            $btn.html(expanded
+                ? 'Show All Articles <i class="fas fa-chevron-down ml-10"></i>'
+                : 'Show Fewer Articles <i class="fas fa-chevron-up ml-10"></i>');
         });
     }
 
