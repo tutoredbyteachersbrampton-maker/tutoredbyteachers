@@ -77,6 +77,8 @@
         #article-grid.show-all > div:nth-child(n+8) { display: block; }
         /* Move the scroll-to-top button to the bottom-left so it never covers the WhatsApp button */
         #scrollUp { left: 18px !important; right: auto !important; }
+        /* Keep phone numbers on one line so they never wrap mid-number */
+        a[href^="tel:"] { white-space: nowrap; }
     </style>
 </head>
 
