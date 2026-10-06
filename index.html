@@ -318,6 +318,60 @@
             </div>
         </div>
     </section>
+        <!-- skills-check start -->
+        <section class="pt-120 pb-90 pt-md-80 pb-md-60 pt-xs-80 pb-xs-60" id="skills-check" style="background:#f7f9fc;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-9 col-lg-10">
+                        <div class="section-title text-center mb-45">
+                            <h5 class="mb-20">Try It Together</h5>
+                            <h2 class="mb-20">A 5-Minute <span class="bottom-line">Skills Check</span> for You and Your Child</h2>
+                            <p style="max-width:640px;margin:0 auto;">Sit with your child, pick their grade, and work through a few quick math questions together. You will get an instant score plus a clear rating of where they stand &mdash; no sign-up, no pressure.</p>
+                        </div>
+                        <div class="qz-card">
+                            <div id="qz-start">
+                                <p class="text-center mb-10" style="font-weight:600;">What grade is your child in?</p>
+                                <div class="qz-grade-pills">
+                                    <button type="button" class="qz-pill" data-grade="5">Grade 5</button>
+                                    <button type="button" class="qz-pill" data-grade="6">Grade 6</button>
+                                    <button type="button" class="qz-pill" data-grade="7">Grade 7</button>
+                                    <button type="button" class="qz-pill" data-grade="8">Grade 8</button>
+                                </div>
+                                <button type="button" id="qz-begin" class="theme_btn theme_btn_bg qz-start-btn" disabled>Start the skills check</button>
+                            </div>
+                            <div id="qz-quiz" style="display:none;">
+                                <div class="qz-progress"><div id="qz-bar"></div></div>
+                                <div class="qz-qnum" id="qz-qnum"></div>
+                                <div class="qz-qtext" id="qz-qtext"></div>
+                                <div id="qz-opts"></div>
+                                <div class="qz-why" id="qz-why" style="display:none;"></div>
+                                <button type="button" id="qz-next" class="theme_btn theme_btn_bg qz-next" style="display:none;">Next question</button>
+                            </div>
+                            <div id="qz-result" style="display:none;">
+                                <div class="text-center">
+                                    <div class="qz-qnum" id="qz-grade-label"></div>
+                                    <div class="qz-score"><span id="qz-score"></span></div>
+                                    <div style="font-size:18px;color:#666;"><span id="qz-pct"></span> correct</div>
+                                    <div><span class="qz-rating" id="qz-rating"></span></div>
+                                    <p class="qz-res-desc" id="qz-res-desc" style="max-width:560px;margin-left:auto;margin-right:auto;"></p>
+                                    <div class="qz-progress" style="max-width:420px;margin:22px auto 0;"><div id="qz-bar2"></div></div>
+                                </div>
+                                <details class="qz-review">
+                                    <summary>Review each answer</summary>
+                                    <ul id="qz-review-list"></ul>
+                                </details>
+                                <div class="qz-btns">
+                                    <a href="#contact" class="theme_btn theme_btn_bg">Book a Free Trial</a>
+                                    <button type="button" id="qz-retry" class="theme_btn">Try another grade</button>
+                                </div>
+                                <p class="qz-note text-center">This is a quick snapshot, not a formal assessment. Our free trial session includes a full one-on-one assessment and a learning plan built around your child.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills-check end -->
     <section class="what-looking-for pos-rel" id="services">
         <div class="what-blur-shape-one"></div>
         <div class="what-blur-shape-two"></div>
@@ -1876,60 +1930,6 @@
         </section>
         <!-- faq-area end -->
         
-        <!-- skills-check start -->
-        <section class="pt-120 pb-90 pt-md-80 pb-md-60 pt-xs-80 pb-xs-60" id="skills-check" style="background:#f7f9fc;">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-9 col-lg-10">
-                        <div class="section-title text-center mb-45">
-                            <h5 class="mb-20">Try It Together</h5>
-                            <h2 class="mb-20">A 5-Minute <span class="bottom-line">Skills Check</span> for You and Your Child</h2>
-                            <p style="max-width:640px;margin:0 auto;">Sit with your child, pick their grade, and work through a few quick math questions together. You will get an instant score plus a clear rating of where they stand &mdash; no sign-up, no pressure.</p>
-                        </div>
-                        <div class="qz-card">
-                            <div id="qz-start">
-                                <p class="text-center mb-10" style="font-weight:600;">What grade is your child in?</p>
-                                <div class="qz-grade-pills">
-                                    <button type="button" class="qz-pill" data-grade="5">Grade 5</button>
-                                    <button type="button" class="qz-pill" data-grade="6">Grade 6</button>
-                                    <button type="button" class="qz-pill" data-grade="7">Grade 7</button>
-                                    <button type="button" class="qz-pill" data-grade="8">Grade 8</button>
-                                </div>
-                                <button type="button" id="qz-begin" class="theme_btn theme_btn_bg qz-start-btn" disabled>Start the skills check</button>
-                            </div>
-                            <div id="qz-quiz" style="display:none;">
-                                <div class="qz-progress"><div id="qz-bar"></div></div>
-                                <div class="qz-qnum" id="qz-qnum"></div>
-                                <div class="qz-qtext" id="qz-qtext"></div>
-                                <div id="qz-opts"></div>
-                                <div class="qz-why" id="qz-why" style="display:none;"></div>
-                                <button type="button" id="qz-next" class="theme_btn theme_btn_bg qz-next" style="display:none;">Next question</button>
-                            </div>
-                            <div id="qz-result" style="display:none;">
-                                <div class="text-center">
-                                    <div class="qz-qnum" id="qz-grade-label"></div>
-                                    <div class="qz-score"><span id="qz-score"></span></div>
-                                    <div style="font-size:18px;color:#666;"><span id="qz-pct"></span> correct</div>
-                                    <div><span class="qz-rating" id="qz-rating"></span></div>
-                                    <p class="qz-res-desc" id="qz-res-desc" style="max-width:560px;margin-left:auto;margin-right:auto;"></p>
-                                    <div class="qz-progress" style="max-width:420px;margin:22px auto 0;"><div id="qz-bar2"></div></div>
-                                </div>
-                                <details class="qz-review">
-                                    <summary>Review each answer</summary>
-                                    <ul id="qz-review-list"></ul>
-                                </details>
-                                <div class="qz-btns">
-                                    <a href="#contact" class="theme_btn theme_btn_bg">Book a Free Trial</a>
-                                    <button type="button" id="qz-retry" class="theme_btn">Try another grade</button>
-                                </div>
-                                <p class="qz-note text-center">This is a quick snapshot, not a formal assessment. Our free trial session includes a full one-on-one assessment and a learning plan built around your child.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- skills-check end -->
 
 <style>
 .qz-card{background:#fff;border-radius:18px;box-shadow:0 12px 40px rgba(20,40,90,.10);padding:44px 40px;max-width:760px;margin:0 auto;text-align:left}
