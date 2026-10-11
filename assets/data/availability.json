@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-10-11T15:19-04:00",
+  "generated_at_display": "Oct 11, 2026, 3:19 PM EDT",
+  "weeks": [
+    {
+      "label": "Week of Oct 12",
+      "days": [
+        {
+          "date_label": "Mon, Oct 12",
+          "date_full": "Monday, October 12, 2026",
+          "closed": true,
+          "slots": [],
+          "closed_reason": "Thanksgiving"
+        },
+        {
+          "date_label": "Tue, Oct 13",
+          "date_full": "Tuesday, October 13, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. A",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Wed, Oct 14",
+          "date_full": "Wednesday, October 14, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. A",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 1,
+              "full": false
+            }
+          ]
+        },
+        {
+          "date_label": "Thu, Oct 15",
+          "date_full": "Thursday, October 15, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. A",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 2,
+              "full": false
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week of Oct 19",
+      "days": [
+        {
+          "date_label": "Mon, Oct 19",
+          "date_full": "Monday, October 19, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Tue, Oct 20",
+          "date_full": "Tuesday, October 20, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Mrs. Brar",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Wed, Oct 21",
+          "date_full": "Wednesday, October 21, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Thu, Oct 22",
+          "date_full": "Thursday, October 22, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Mrs. Brar",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week of Oct 26",
+      "days": [
+        {
+          "date_label": "Mon, Oct 26",
+          "date_full": "Monday, October 26, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Tue, Oct 27",
+          "date_full": "Tuesday, October 27, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Mrs. Brar",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Wed, Oct 28",
+          "date_full": "Wednesday, October 28, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        },
+        {
+          "date_label": "Thu, Oct 29",
+          "date_full": "Thursday, October 29, 2026",
+          "closed": false,
+          "slots": [
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Mrs. Brar",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 1,
+              "full": false
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
