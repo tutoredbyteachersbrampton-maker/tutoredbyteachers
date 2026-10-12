@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T10:54-04:00",
-  "generated_at_display": "Oct 12, 2026, 10:54 AM EDT",
+  "generated_at": "2026-10-12T14:23-04:00",
+  "generated_at_display": "Oct 12, 2026, 2:23 PM EDT",
   "weeks": [
     {
       "label": "Week of Oct 12",
@@ -124,7 +124,7 @@
             {
               "time": "5:00 pm",
               "teacher": "Ms. D",
-              "spots_left": 2,
+              "spots_left": 1,
               "full": false
             },
             {
@@ -289,7 +289,7 @@
             {
               "time": "5:00 pm",
               "teacher": "Ms. A",
-              "spots_left": 2,
+              "spots_left": 1,
               "full": false
             },
             {
@@ -454,7 +454,7 @@
             {
               "time": "5:00 pm",
               "teacher": "Ms. A",
-              "spots_left": 2,
+              "spots_left": 1,
               "full": false
             },
             {
