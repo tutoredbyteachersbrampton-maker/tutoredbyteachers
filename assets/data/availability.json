@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T15:19-04:00",
-  "generated_at_display": "Oct 11, 2026, 3:19 PM EDT",
+  "generated_at": "2026-10-12T09:53-04:00",
+  "generated_at_display": "Oct 12, 2026, 9:53 AM EDT",
   "weeks": [
     {
       "label": "Week of Oct 12",
@@ -25,7 +25,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -44,7 +44,7 @@
             {
               "time": "5:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
+              "spots_left": 3,
               "full": false
             },
             {
@@ -62,8 +62,8 @@
             {
               "time": "6:00 pm",
               "teacher": "Ms. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             }
           ]
         },
@@ -80,15 +80,15 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 1,
               "full": false
             },
             {
               "time": "5:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             }
           ]
         },
@@ -100,12 +100,12 @@
             {
               "time": "4:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -118,32 +118,32 @@
             {
               "time": "5:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Mr. S",
               "spots_left": 1,
               "full": false
             },
             {
               "time": "5:00 pm",
+              "teacher": "Mr. S",
+              "spots_left": 3,
+              "full": false
+            },
+            {
+              "time": "5:00 pm",
               "teacher": "Ms. G",
+              "spots_left": 0,
+              "full": true
+            },
+            {
+              "time": "6:00 pm",
+              "teacher": "Mr. S",
               "spots_left": 1,
               "full": false
             },
             {
               "time": "6:00 pm",
-              "teacher": "Mr. S",
-              "spots_left": 2,
-              "full": false
-            },
-            {
-              "time": "6:00 pm",
               "teacher": "Ms. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             }
           ]
         }
