@@ -8854,4 +8854,53 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
   bottom: 65px;
   z-index: -1;
 }
+/* ============================================================
+   Header nav fit fix — 2026-10-12
+   The desktop nav grew to 8 items (Podcast + Make-Up Session were
+   added 2026-10-11). At the stock 20px font with 0 37px link margins
+   the menu needs ~1,240px, but its grid column offers only ~630-1,000px,
+   so the centered menu spilled left over the logo and right under the
+   CTA button, and "Make-Up Session" wrapped onto stacked lines.
+   Desktop-only tightening below; below 992px the hamburger menu takes
+   over and is untouched.
+   ============================================================ */
+@media (min-width: 992px) {
+  .main-menu {
+    margin-left: 0;
+  }
+  .main-header-area .navbar-nav {
+    flex-wrap: nowrap;
+  }
+  .main-header-area .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+  .main-header-area .logo-hd img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1279.98px) {
+  .main-header-area .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    margin: 0 7px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1440px) {
+  /* Keep the header CTA pill on one line and inside its column:
+     at these widths the stock 17px/38px pill is a few px too wide,
+     which wrapped its label onto two lines. */
+  .main-header-area .free_btn {
+    padding: 15px 24px;
+    white-space: nowrap;
+  }
+  .main-header-area .right-btn {
+    margin-right: 10px;
+  }
+  .main-header-area .sign-in {
+    margin-left: 12px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
