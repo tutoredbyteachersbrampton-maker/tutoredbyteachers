@@ -9110,3 +9110,88 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
   #pricing .what-box { padding: 32px 20px; }
   #pricing .what-box h3 { font-size: 26px; }
 }
+
+/* ============ TBT "Browse Categories" redesign (index.html, 2026-10-12) ============
+   Clean-cut treatment matching the Why/About blocks above: light tinted band,
+   tracked-out eyebrow + lead header, white category cards with soft shadows and
+   soft-blue icon circles. Copy, categories, and links unchanged. */
+.course-categories {
+  background: #f4f7ff;
+  padding: 70px 0 80px;
+}
+.course-categories .tbt-cats-head {
+  max-width: 860px;
+  margin: 0 auto 50px;
+}
+.course-categories .tbt-eyebrow {
+  color: #406EFF;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.course-categories .tbt-lead {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #2b3a55;
+  margin: 0;
+}
+.course-categories .outterbox {
+  padding: 10px;
+}
+.course-categories .service-box {
+  background: #ffffff;
+  border: 1px solid #e3e9f7;
+  border-radius: 18px;
+  padding: 26px 28px;
+  box-shadow: 0 8px 24px rgba(64, 110, 255, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.course-categories .service-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(64, 110, 255, 0.14);
+  border-color: #c9d6ff;
+}
+.course-categories .service-box span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #e8efff;
+  margin-right: 20px;
+  flex: 0 0 auto;
+}
+.course-categories .service-box span [class*="icon-"] {
+  max-height: 30px;
+  max-width: 30px;
+}
+.course-categories .service-box h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #101a33;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+.course-categories .service-box .p-services {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #45536e;
+  margin: 0;
+}
+@media (max-width: 767.98px) {
+  .course-categories {
+    padding: 50px 0 60px;
+  }
+  .course-categories .tbt-lead {
+    font-size: 16px;
+  }
+  .course-categories .service-box {
+    padding: 22px 20px;
+  }
+  .course-categories .outterbox {
+    padding: 7px;
+  }
+}
