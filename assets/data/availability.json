@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T14:53-04:00",
-  "generated_at_display": "Oct 12, 2026, 2:53 PM EDT",
+  "generated_at": "2026-10-12T22:23-04:00",
+  "generated_at_display": "Oct 12, 2026, 10:23 PM EDT",
   "weeks": [
     {
       "label": "Week of Oct 12",
@@ -184,7 +184,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -239,7 +239,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -264,7 +264,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -288,7 +288,7 @@
             },
             {
               "time": "5:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 1,
               "full": false
             },
@@ -349,7 +349,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -404,7 +404,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -429,7 +429,7 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 0,
               "full": true
             },
@@ -453,7 +453,7 @@
             },
             {
               "time": "5:00 pm",
-              "teacher": "Ms. A",
+              "teacher": "Ms. D",
               "spots_left": 1,
               "full": false
             },
