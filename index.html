@@ -72,9 +72,12 @@
     gtag('config', 'G-S1LCLQ0SMP');
     </script>
     <style>
-        /* Parent Resources: show newest 6 articles, collapse the rest (works even before/without JS) */
-        #article-grid > div:nth-child(n+8) { display: none; }
-        #article-grid.show-all > div:nth-child(n+8) { display: block; }
+        /* Parent Resources: show newest 3 articles, collapse the rest (works even before/without JS) */
+        #article-grid > div:nth-child(n+5) { display: none; }
+        #article-grid.show-all > div:nth-child(n+5) { display: block; }
+        @media (max-width: 575px) {
+            #toggle-articles { width: 100%; max-width: 340px; }
+        }
         /* Move the scroll-to-top button to the bottom-left so it never covers the WhatsApp button */
         #scrollUp { left: 18px !important; right: auto !important; }
         /* Keep phone numbers on one line so they never wrap mid-number */
@@ -1922,7 +1925,7 @@
                         </div>
 </div><div class="row">
                         <div class="col-12 text-center mt-30">
-                            <button id="toggle-articles" class="theme_btn theme_btn_bg" type="button">Show All Articles <i class="fas fa-chevron-down ml-10"></i></button>
+                            <button id="toggle-articles" class="theme_btn theme_btn_bg" type="button">Show More Articles <i class="fas fa-chevron-down ml-10"></i></button>
                         </div>
                     </div>
                 </div>
@@ -2395,7 +2398,7 @@ $('.monster').fadeIn('slow');
 
 $(document).ready(function() {
 
-    // Parent Resources: toggle the collapsed article grid (CSS hides cards 7+ by default)
+    // Parent Resources: toggle the collapsed article grid (CSS hides cards 4+ by default)
     var $grid = $('#article-grid');
     var $btn = $('#toggle-articles');
     if ($grid.length && $btn.length) {
@@ -2403,8 +2406,8 @@ $(document).ready(function() {
             var expanded = $grid.hasClass('show-all');
             $grid.toggleClass('show-all', !expanded);
             $btn.html(expanded
-                ? 'Show All Articles <i class="fas fa-chevron-down ml-10"></i>'
-                : 'Show Fewer Articles <i class="fas fa-chevron-up ml-10"></i>');
+                ? 'Show More Articles <i class="fas fa-chevron-down ml-10"></i>'
+                : 'Show Less <i class="fas fa-chevron-up ml-10"></i>');
         });
     }
 
