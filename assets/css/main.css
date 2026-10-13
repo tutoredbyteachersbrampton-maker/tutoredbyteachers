@@ -9160,7 +9160,7 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #efecff;
+  background: #e8efff;
   margin-right: 20px;
   flex: 0 0 auto;
 }
@@ -9318,5 +9318,128 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
     grid-template-columns: 1fr;
     margin: 40px 0 36px;
     gap: 18px;
+  }
+}
+
+/* ---- Free-trial booking banner (#contact) — scoped, clean-cut showcase ---- */
+.tbt-book-banner {
+  background: linear-gradient(135deg, #1e3fa0 0%, #2447b8 55%, #3a63e0 100%);
+  border-radius: 26px;
+  padding: 60px 52px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 24px 70px rgba(36, 71, 184, 0.28);
+  position: relative;
+  overflow: hidden;
+}
+.tbt-book-banner::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+}
+.tbt-book-banner::after {
+  content: "";
+  position: absolute;
+  bottom: -140px;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+.tbt-book-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #bcd0ff;
+  font-weight: 600;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+.tbt-book-banner h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 18px;
+  position: relative;
+  z-index: 1;
+}
+.tbt-book-sub {
+  color: #e4ebff;
+  font-size: 17px;
+  line-height: 1.65;
+  max-width: 440px;
+  margin: 0 auto 32px;
+  position: relative;
+  z-index: 1;
+}
+.tbt-book-cta {
+  display: inline-block;
+  background: #fff;
+  color: #2447b8;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 17px 54px;
+  border-radius: 60px;
+  text-decoration: none;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  z-index: 1;
+}
+.tbt-book-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+  color: #1e3fa0;
+}
+.tbt-book-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+.tbt-book-chips span {
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .tbt-book-banner {
+    padding: 44px 26px;
+    border-radius: 22px;
+  }
+  .tbt-book-banner h2 {
+    font-size: 31px;
+  }
+  .tbt-book-sub {
+    font-size: 16px;
+  }
+  .tbt-book-cta {
+    display: block;
+    width: 100%;
+    padding: 17px 20px;
+    font-size: 17px;
+  }
+  .tbt-book-chips span {
+    font-size: 13px;
+    padding: 8px 15px;
   }
 }
