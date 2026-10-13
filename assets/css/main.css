@@ -9236,101 +9236,87 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
   }
 }
 
-/* TBT 2026-10-12: Why-choose section full rebuild — clean-cut */
-.tbt-whychoose {
+/* TBT 2026-10-12: Why-choose banner redesign — photo removed, banner + icon cards */
+.tbt-whychoose-banner {
   background: #ffffff;
-  padding: 90px 0;
+  padding: 0 0 90px;
 }
-.tbt-whychoose-grid {
-  display: flex;
-  align-items: center;
-  gap: 70px;
+.tbt-whychoose-banner-inner {
+  background: #2447B8;
+  padding: 84px 0;
+  text-align: center;
 }
-.tbt-whychoose-photo {
-  flex: 0 0 46%;
-  min-width: 0;
-}
-.tbt-whychoose-photo img {
-  width: 100%;
-  height: auto;
-  border-radius: 24px;
-  display: block;
-  box-shadow: 0 20px 50px rgba(16, 26, 51, 0.10);
-}
-.tbt-whychoose-copy {
-  flex: 1;
-  min-width: 0;
-}
-.tbt-whychoose .tbt-eyebrow {
-  color: #406EFF;
+.tbt-whychoose-banner .tbt-eyebrow {
+  color: #bcd0ff;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 16px;
 }
-.tbt-whychoose .tbt-headline {
-  font-size: 42px;
+.tbt-whychoose-banner .tbt-headline {
+  color: #ffffff;
+  font-size: 44px;
   font-weight: 800;
-  color: #101a33;
   line-height: 1.15;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
-.tbt-whychoose .tbt-lead {
+.tbt-whychoose-banner .tbt-lead {
+  color: #dbe4ff;
   font-size: 17.5px;
   line-height: 1.7;
-  color: #45536e;
-  margin-bottom: 30px;
+  max-width: 720px;
+  margin: 0 auto;
 }
-.tbt-checklist {
+.tbt-whychoose-cards {
   list-style: none;
   padding: 0;
-  margin: 0 0 36px;
+  margin: 56px 0 44px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 28px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
-.tbt-checklist li {
-  position: relative;
-  padding-left: 38px;
+.tbt-whychoose-cards li {
+  background: #ffffff;
+  border: 1px solid #e8edf7;
+  border-radius: 18px;
+  padding: 30px 26px;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  box-shadow: 0 10px 30px rgba(16, 26, 51, 0.06);
   font-size: 16px;
-  line-height: 1.55;
+  line-height: 1.6;
   color: #2b3a55;
 }
-.tbt-checklist li::before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  position: absolute;
-  left: 0;
-  top: 1px;
-  width: 26px;
-  height: 26px;
+.tbt-whychoose-cards .tbt-icon {
+  flex: 0 0 52px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
-  background: #2447B8;
-  color: #ffffff;
-  font-size: 13px;
+  background: #e7efff;
+  color: #2447B8;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 22px;
+}
+.tbt-whychoose-cta {
+  text-align: center;
 }
 @media (max-width: 991px) {
-  .tbt-whychoose {
+  .tbt-whychoose-banner {
+    padding: 0 0 60px;
+  }
+  .tbt-whychoose-banner-inner {
     padding: 60px 0;
   }
-  .tbt-whychoose-grid {
-    flex-direction: column;
-    gap: 40px;
-  }
-  .tbt-whychoose-photo {
-    flex: none;
-    width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
-  }
-  .tbt-checklist {
-    grid-template-columns: 1fr;
-  }
-  .tbt-whychoose .tbt-headline {
+  .tbt-whychoose-banner .tbt-headline {
     font-size: 32px;
+  }
+  .tbt-whychoose-cards {
+    grid-template-columns: 1fr;
+    margin: 40px 0 36px;
+    gap: 18px;
   }
 }
