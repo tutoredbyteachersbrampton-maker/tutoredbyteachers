@@ -9010,3 +9010,93 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
     padding: 22px 16px;
   }
 }
+
+/* ============ TBT "About" intro redesign (index.html, 2026-10-12) ============
+   Clean-cut redesign of the plain About paragraph: eyebrow + headline pulled from
+   the copy's core promise, readable body measure, 4 fact chips with icons, CTA.
+   Sits on the section's white background; the blue Why card below provides contrast. */
+.tbt-about-intro {
+  max-width: 900px;
+  margin: 0 auto 45px;
+}
+.tbt-about-intro .tbt-eyebrow {
+  color: #406EFF;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.tbt-about-intro .tbt-headline {
+  font-size: 44px;
+  font-weight: 800;
+  color: #101a33;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+.tbt-about-intro .tbt-highlight {
+  color: #406EFF;
+}
+.tbt-about-intro .tbt-lead {
+  font-size: 19px;
+  line-height: 1.75;
+  color: #2b3a55;
+  margin-bottom: 14px;
+}
+.tbt-about-intro .tbt-copy {
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: #45536e;
+  margin-bottom: 0;
+}
+.tbt-chips {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 34px 0 38px;
+}
+.tbt-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e3e9f7;
+  border-radius: 999px;
+  padding: 10px 20px 10px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #101a33;
+  box-shadow: 0 4px 14px rgba(64, 110, 255, 0.07);
+}
+.tbt-chip-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #e8efff;
+  color: #406EFF;
+  font-size: 15px;
+  flex: 0 0 auto;
+}
+.tbt-about-cta {
+  margin-top: 4px;
+}
+@media (max-width: 767.98px) {
+  .tbt-about-intro .tbt-headline {
+    font-size: 30px;
+  }
+  .tbt-about-intro .tbt-lead {
+    font-size: 17px;
+  }
+  .tbt-chips {
+    gap: 10px;
+    margin: 28px 0 30px;
+  }
+  .tbt-chip {
+    font-size: 14px;
+    padding: 8px 16px 8px 10px;
+  }
+}
