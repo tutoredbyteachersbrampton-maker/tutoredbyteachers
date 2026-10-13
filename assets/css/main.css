@@ -8904,3 +8904,109 @@ box-shadow: 0px 19px 31px -1px rgba(0,0,0,0.22);
   }
 }
 /*# sourceMappingURL=main.css.map */
+/* ============ TBT "Why Tutored by Teachers" redesigned section (index.html, 2026-10-12) ============
+   Clean-cut redesign of the plain quote/text blocks: eyebrow + headline pulled from the copy's
+   core idea, readable body measure, 3 feature cards with icons, CTA line + existing button style. */
+.tbt-why {
+  background: #f4f7ff;
+  border-radius: 24px;
+  padding: 70px 30px;
+  margin-bottom: 45px;
+}
+.tbt-why-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tbt-why .tbt-eyebrow {
+  color: #406EFF;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.tbt-why .tbt-headline {
+  font-size: 44px;
+  font-weight: 800;
+  color: #101a33;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+.tbt-why .tbt-lead {
+  font-size: 19px;
+  line-height: 1.75;
+  color: #2b3a55;
+  margin-bottom: 16px;
+}
+.tbt-why .tbt-copy {
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: #45536e;
+  margin-bottom: 16px;
+}
+.tbt-features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+.tbt-feature {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px 18px;
+  flex: 1 1 0;
+  max-width: 250px;
+  box-shadow: 0 8px 24px rgba(64, 110, 255, 0.08);
+}
+.tbt-why .tbt-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #e8efff;
+  color: #406EFF;
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+.tbt-why .tbt-feature h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #101a33;
+  margin: 0;
+  line-height: 1.4;
+}
+.tbt-why .tbt-cta {
+  margin-top: 36px;
+}
+.tbt-why .tbt-cta-line {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101a33;
+  line-height: 1.65;
+  margin-bottom: 26px;
+}
+@media (max-width: 767.98px) {
+  .tbt-why {
+    padding: 44px 20px;
+    border-radius: 18px;
+  }
+  .tbt-why .tbt-headline {
+    font-size: 30px;
+  }
+  .tbt-why .tbt-lead {
+    font-size: 17px;
+  }
+  .tbt-features {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    margin: 32px 0;
+  }
+  .tbt-feature {
+    max-width: none;
+    padding: 22px 16px;
+  }
+}
