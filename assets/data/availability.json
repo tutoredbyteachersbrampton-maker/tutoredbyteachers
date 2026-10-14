@@ -1,59 +1,10 @@
 {
-  "generated_at": "2026-10-13T15:53-04:00",
-  "generated_at_display": "Oct 13, 2026, 3:53 PM EDT",
+  "generated_at": "2026-10-14T00:23-04:00",
+  "generated_at_display": "Oct 14, 2026, 12:23 AM EDT",
   "weeks": [
     {
       "label": "Week of Oct 12",
       "days": [
-        {
-          "date_label": "Tue, Oct 13",
-          "date_full": "Tuesday, October 13, 2026",
-          "closed": false,
-          "slots": [
-            {
-              "time": "4:00 pm",
-              "teacher": "Ms. G",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "4:00 pm",
-              "teacher": "Ms. V",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Mr. S",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Ms. G",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Ms. V",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "6:00 pm",
-              "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
-            },
-            {
-              "time": "6:00 pm",
-              "teacher": "Ms. G",
-              "spots_left": 0,
-              "full": true
-            }
-          ]
-        },
         {
           "date_label": "Wed, Oct 14",
           "date_full": "Wednesday, October 14, 2026",
