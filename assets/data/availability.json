@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T00:23-04:00",
-  "generated_at_display": "Oct 16, 2026, 12:23 AM EDT",
+  "generated_at": "2026-10-18T09:53-04:00",
+  "generated_at_display": "Oct 18, 2026, 9:53 AM EDT",
   "weeks": [
     {
       "label": "Week of Oct 19",
@@ -17,10 +17,16 @@
               "full": true
             },
             {
+              "time": "4:00 pm",
+              "teacher": "Ms. V",
+              "spots_left": 1,
+              "full": false
+            },
+            {
               "time": "5:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             }
           ]
         },
@@ -87,8 +93,8 @@
             {
               "time": "4:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             },
             {
               "time": "4:00 pm",
@@ -136,14 +142,14 @@
             {
               "time": "5:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "5:00 pm",
               "teacher": "Ms. G",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "6:00 pm",
@@ -301,8 +307,8 @@
             {
               "time": "5:00 pm",
               "teacher": "Ms. G",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "6:00 pm",
