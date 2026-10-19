@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T09:53-04:00",
-  "generated_at_display": "Oct 18, 2026, 9:53 AM EDT",
+  "generated_at": "2026-10-18T21:53-04:00",
+  "generated_at_display": "Oct 18, 2026, 9:53 PM EDT",
   "weeks": [
     {
       "label": "Week of Oct 19",
@@ -74,8 +74,8 @@
             {
               "time": "6:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "6:00 pm",
@@ -154,8 +154,8 @@
             {
               "time": "6:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "6:00 pm",
@@ -182,10 +182,16 @@
               "full": true
             },
             {
+              "time": "4:00 pm",
+              "teacher": "Ms. Kaur",
+              "spots_left": 1,
+              "full": false
+            },
+            {
               "time": "5:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             }
           ]
         },
@@ -233,8 +239,8 @@
             {
               "time": "6:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "6:00 pm",
@@ -252,8 +258,8 @@
             {
               "time": "4:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
+              "spots_left": 1,
+              "full": false
             },
             {
               "time": "4:00 pm",
@@ -301,8 +307,8 @@
             {
               "time": "5:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "5:00 pm",
@@ -313,8 +319,8 @@
             {
               "time": "6:00 pm",
               "teacher": "Mr. S",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             },
             {
               "time": "6:00 pm",
