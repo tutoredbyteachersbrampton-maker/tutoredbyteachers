@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T14:53-04:00",
-  "generated_at_display": "Oct 20, 2026, 2:53 PM EDT",
+  "generated_at": "2026-10-20T15:53-04:00",
+  "generated_at_display": "Oct 20, 2026, 3:53 PM EDT",
   "weeks": [
     {
       "label": "Week of Oct 19",
@@ -27,12 +27,6 @@
               "teacher": "Ms. V",
               "spots_left": 0,
               "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Mr. S",
-              "spots_left": 2,
-              "full": false
             },
             {
               "time": "5:00 pm",
