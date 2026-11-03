@@ -1,29 +1,10 @@
 {
-  "generated_at": "2026-11-01T08:53-05:00",
-  "generated_at_display": "Nov 1, 2026, 8:53 AM EST",
+  "generated_at": "2026-11-03T00:23-05:00",
+  "generated_at_display": "Nov 3, 2026, 12:23 AM EST",
   "weeks": [
     {
       "label": "Week of Nov 2",
       "days": [
-        {
-          "date_label": "Mon, Nov 2",
-          "date_full": "Monday, November 2, 2026",
-          "closed": false,
-          "slots": [
-            {
-              "time": "4:00 pm",
-              "teacher": "Mr. G",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Mr. G",
-              "spots_left": 1,
-              "full": false
-            }
-          ]
-        },
         {
           "date_label": "Tue, Nov 3",
           "date_full": "Tuesday, November 3, 2026",
