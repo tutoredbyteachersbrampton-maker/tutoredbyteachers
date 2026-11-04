@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T00:23-05:00",
-  "generated_at_display": "Nov 4, 2026, 12:23 AM EST",
+  "generated_at": "2026-11-04T08:23-05:00",
+  "generated_at_display": "Nov 4, 2026, 8:23 AM EST",
   "weeks": [
     {
       "label": "Week of Nov 2",
@@ -122,15 +122,21 @@
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms. G",
+              "teacher": "Mr. S",
               "spots_left": 0,
               "full": true
             },
             {
               "time": "4:00 pm",
-              "teacher": "Ms.V",
+              "teacher": "Ms. G",
               "spots_left": 0,
               "full": true
+            },
+            {
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
+              "spots_left": 1,
+              "full": false
             },
             {
               "time": "5:00 pm",
@@ -143,12 +149,6 @@
               "teacher": "Ms. G",
               "spots_left": 0,
               "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Ms.V",
-              "spots_left": 1,
-              "full": false
             },
             {
               "time": "6:00 pm",
@@ -172,7 +172,7 @@
             {
               "time": "4:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 1,
+              "spots_left": 2,
               "full": false
             },
             {
@@ -183,7 +183,7 @@
             },
             {
               "time": "5:00 pm",
-              "teacher": "Mr. G",
+              "teacher": "Ms. G",
               "spots_left": 0,
               "full": true
             }
@@ -197,6 +197,12 @@
             {
               "time": "4:00 pm",
               "teacher": "Mr. G",
+              "spots_left": 2,
+              "full": false
+            },
+            {
+              "time": "4:00 pm",
+              "teacher": "Mr. S",
               "spots_left": 0,
               "full": true
             },
@@ -207,8 +213,8 @@
               "full": true
             },
             {
-              "time": "4:00 pm",
-              "teacher": "Ms.V",
+              "time": "5:00 pm",
+              "teacher": "Mr. G",
               "spots_left": 0,
               "full": true
             },
@@ -221,12 +227,6 @@
             {
               "time": "5:00 pm",
               "teacher": "Ms. G",
-              "spots_left": 0,
-              "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Ms.V",
               "spots_left": 0,
               "full": true
             },
