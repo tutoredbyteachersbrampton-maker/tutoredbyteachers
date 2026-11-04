@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T12:23-05:00",
-  "generated_at_display": "Nov 4, 2026, 12:23 PM EST",
+  "generated_at": "2026-11-04T14:53-05:00",
+  "generated_at_display": "Nov 4, 2026, 2:53 PM EST",
   "weeks": [
     {
       "label": "Week of Nov 2",
@@ -159,8 +159,8 @@
             {
               "time": "6:00 pm",
               "teacher": "Ms. G",
-              "spots_left": 1,
-              "full": false
+              "spots_left": 0,
+              "full": true
             }
           ]
         },
