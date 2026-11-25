@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T00:23-05:00",
-  "generated_at_display": "Nov 25, 2026, 12:23 AM EST",
+  "generated_at": "2026-11-25T17:53-05:00",
+  "generated_at_display": "Nov 25, 2026, 5:53 PM EST",
   "weeks": [
     {
       "label": "Week of Nov 23",
@@ -15,12 +15,6 @@
               "teacher": "Mr. G",
               "spots_left": 0,
               "full": true
-            },
-            {
-              "time": "5:00 pm",
-              "teacher": "Mr. G",
-              "spots_left": 1,
-              "full": false
             },
             {
               "time": "5:00 pm",
@@ -56,7 +50,7 @@
             {
               "time": "5:00 pm",
               "teacher": "Mr. G",
-              "spots_left": 3,
+              "spots_left": 1,
               "full": false
             },
             {
